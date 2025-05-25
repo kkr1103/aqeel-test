@@ -9,20 +9,37 @@
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 50px;
+            background-color: #f4f4f4; /* A light background color */
+            color: #333; /* Darker text for readability */
         }
         h1 {
-            color: #333;
+            color: #2c3e50; /* A slightly darker blue for the title */
+            margin-bottom: 30px;
         }
         img {
-            max-width: 100%;
+            max-width: 300px; /* Limit image width for better display on various screens */
             height: auto;
-            border-radius: 8px; /* Optional: adds a slight roundness to the image corners */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+            border-radius: 50%; /* Makes the image circular, common for profile pictures */
+            border: 5px solid #3498db; /* A blue border around the image */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* More prominent shadow */
+            transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+        }
+        img:hover {
+            transform: scale(1.05); /* Slightly enlarge image on hover */
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #777;
         }
     </style>
 </head>
 <body>
     <h1>Aqeel Ahmed, The Great Cyber Security Consultant</h1>
     <img src="WhatsApp Image 2025-05-25 at 16.46.28_1c02fbd2.jpg" alt="Aqeel Ahmed">
-    </body>
+
+    <footer>
+        <p>&copy; 2025 Aqeel Ahmed. All rights reserved.</p>
+    </footer>
+</body>
 </html>
